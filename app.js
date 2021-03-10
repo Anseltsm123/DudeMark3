@@ -4,7 +4,7 @@ var unirest = require('unirest');
 var DEFAULT_TIMEOUT = 60;
 var DEBUG = true;
 
-var BOT_TOKEN = "";
+var BOT_TOKEN = "1681612828:AAENsSPunOT12QUSnCGj6CQvsRX2n2YRbmI";
 var BASE_URL = "https://api.telegram.org/bot" + BOT_TOKEN + "/";
 var POLLING_URL = BASE_URL + "getUpdates?offset=:offset&timeout=" + DEFAULT_TIMEOUT; // GET
 var SEND_MESSAGE_URL = BASE_URL + "sendMessage" // POST
